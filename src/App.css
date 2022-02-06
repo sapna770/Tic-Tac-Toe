@@ -1,0 +1,30 @@
+body {
+  background-color: #444;
+  color: white;
+  margin: 20px;
+  font: 32px "Century Gothic", Futura, sans-serif;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: nowrap;
+}
+.square {
+  background-color: #444;
+  color: white;
+  border: 2px solid #999;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 84px;
+  padding: 0px;
+}
+.status {
+  margin: 20px;
+  font-size: 24px;
+}
